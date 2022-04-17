@@ -50,10 +50,10 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
 
 ## Examples:
 
-    ```
+
     python manage.py runserver 3000
     curl -H "Content-Type: application/json" -d '{"type":"issue", "title":"Send Message", "description":"Let pilots"}' http://localhost:3000 
-    ```
+
 
 [trello]: https://trello.com/
 [python_setup]: https://www.python.org/downloads/
