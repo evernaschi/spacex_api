@@ -36,10 +36,23 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
     pip install -r requirements.txt
     ```
 
+1. Now sync your database:
+
+    ```
+    python manage.py migrate
+    ```
+ 
 1. Run the server:
 
     ```
     python manage.py runserver
+    ```
+
+## Examples:
+
+    ```
+    python manage.py runserver 3000
+    curl -H "Content-Type: application/json" -d '{"type":"issue", "title":"Send Message", "description":"Let pilots"}' http://localhost:3000 
     ```
 
 [trello]: https://trello.com/
