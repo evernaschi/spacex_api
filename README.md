@@ -53,6 +53,7 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
 
     python manage.py runserver 3000
     curl -H "Content-Type: application/json" -d '{"type":"issue", "title":"Send Message", "description":"Let pilots"}' http://localhost:3000 
+    http POST http://127.0.0.1:8000/ type="issue" title="Send Message" description="Let pilots"  
 
 
 [trello]: https://trello.com/
