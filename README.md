@@ -21,6 +21,13 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
     git clone https://github.com/evernaschi/spacex_api.git
     ```
 
+1. In the app directory, create a file whose name is .env, and put inside it:
+    ```
+    SECRET_KEY = '....your secret key ....'
+    TRELLO_KEY = '0109e2ca4440a60b57cbf0a51c10d600'
+    ```
+    You can use a website like this https://djecrety.ir/ for generating your SECRET_KEY
+
 ## How to run
 
 1. Create a virtualenv.
@@ -48,6 +55,8 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
     python manage.py runserver
     ```
 
+1. After creating a Task, you can see the results in [`My Board`][trello_board]
+
 ## Examples:
 
 
@@ -60,3 +69,4 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
 [python_setup]: https://www.python.org/downloads/
 [pip_setup]: https://pypi.org/project/pip/
 [venv_setup]: https://pypi.org/project/virtualenv/
+[trello_board]: https://trello.com/invite/b/ZLrw4NBB/417bb91362d67f90abe0a2de86790081/spacex
