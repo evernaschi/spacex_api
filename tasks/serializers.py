@@ -3,6 +3,7 @@ from tasks.models import Task
 from random_words import RandomWords
 import random
 import requests
+from decouple import config
 
 class TaskSerializer(serializers.ModelSerializer):
 
@@ -11,7 +12,7 @@ class TaskSerializer(serializers.ModelSerializer):
         fields = ['url', 'id', 'type', 'title', 'description', 'category']
 
     trello_auth_params={
-        'key': '0109e2ca4440a60b57cbf0a51c10d600',
+        'key': config("TRELLO_KEY"),
         'token': '5dd9d5beb8299ca4c6a75e3bb06c66defbd606d106d84223f80e97fe896c889c',
     }
 

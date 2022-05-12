@@ -1,4 +1,5 @@
 Django==4.0.4
 djangorestframework==3.13.1
+python-decouple==3.6
 RandomWords==0.3.0
 requests==2.27.1
