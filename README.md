@@ -25,8 +25,10 @@ category (Maintenance, Research, or Test) each corresponding to a label in trell
     ```
     SECRET_KEY = '....your secret key ....'
     TRELLO_KEY = '0109e2ca4440a60b57cbf0a51c10d600'
+    TRELLO_TOKEN = '5dd9d5beb8299ca4c6a75e3bb06c66defbd606d106d84223f80e97fe896c889c'
     ```
-    You can use a website like this https://djecrety.ir/ for generating your SECRET_KEY
+    You can use a website like this https://djecrety.ir/ for generating your SECRET_KEY.
+    You can use my Trello key and token for this time.
 
 ## How to run
 
