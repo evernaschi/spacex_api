@@ -13,7 +13,7 @@ class TaskSerializer(serializers.ModelSerializer):
 
     trello_auth_params={
         'key': config("TRELLO_KEY"),
-        'token': '5dd9d5beb8299ca4c6a75e3bb06c66defbd606d106d84223f80e97fe896c889c',
+        'token': config("TRELLO_TOKEN"),
     }
 
     def create(self, validated_data):
